@@ -16,19 +16,14 @@ bash experiments/training/cartpole.sh
 
 ## Evaluation
 
-Here we explain how to reproducce figures from the paper. 
+Here we explain how to reproduce figures from the paper. 
 
-### Download
+One pre-trained checkpoint per experimental setting is available in `experiments/artifacts/checkpoints`. 
 
-Download 1 pre-trained checkpoint per experimental setting
-```
-bash experiments/evaluation/download_checkpoints.sh
-```
+Metrics for 5 seeded runs of each experimental setting is available in `experiments/artifacts/data/metrics.csv`
 
-Download data for 5 seeds per experimental setting
-```
-bash experiments/evaluation/download_data.sh
-```
+Collection of pre-generated plots is available in `experiments/artifacts/plots`. Below, we provide instructions for generating all plots. 
+
 
 ### Visualize training history
 
