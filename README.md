@@ -25,4 +25,6 @@ Conference
  
 ## Description  
 
-RL for learning control barrier functions
+Code accompanying the paper "Your Value Function is a Control Barrier Function: Verification of Learned Policies using Control Theory"
+
+To reproduce figures from the paper, refer to `experiments/README.md`
